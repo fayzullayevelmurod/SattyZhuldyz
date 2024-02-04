@@ -72,6 +72,18 @@ address {
   letter-spacing: 0%;
 }
 
+.main_btn {
+  color: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  border-radius: 26px;
+  background: rgb(254, 204, 0);
+}
+
 header {
   padding: 15px 0;
 }
@@ -183,4 +195,117 @@ header .burger {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+.lotto_game p {
+  margin: 40px 0;
+  color: rgb(0, 0, 0);
+  font-family: Microsoft Sans Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0%;
+}
+
+.jackpot .jackpot_in {
+  position: relative;
+}
+.jackpot .jackpot_in button {
+  position: absolute;
+  bottom: 50px;
+  left: 290px;
+  padding: 24px 37px;
+}
+
+.lotteries .title_block {
+  margin: 22px 0;
+}
+.lotteries .lotteries_in {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.lotteries p {
+  margin: 40px 0;
+  color: rgb(0, 0, 0);
+  font-family: Microsoft Sans Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0%;
+}
+
+.winners {
+  margin-bottom: 66px;
+}
+.winners .winners_card {
+  width: 33.3333333333%;
+  position: relative;
+  padding: 19px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20.21px;
+  box-shadow: 0px 3.37px 44.92px 0px rgb(202, 213, 228);
+  background: rgb(255, 255, 255);
+}
+.winners .winners_card .winners_card_icon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.winners .winners_in {
+  margin: 37px 0 48px 0;
+  display: flex;
+  gap: 46px;
+}
+.winners h6 {
+  color: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 26.39px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+.winners h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 29.2px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+}
+.winners p {
+  color: rgb(0, 0, 0);
+  font-family: Microsoft Sans Serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.information {
+  margin-bottom: 66px;
+}
+.information .main_container {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+.information .information_card {
+  width: 33.3333333333%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.information .information_card a {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: rgb(0, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 30.98px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0%;
 }/*# sourceMappingURL=style.css.map */
