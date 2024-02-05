@@ -224,7 +224,37 @@ address {
 
 // header
 header {
-    padding: 15px 0;
+    // padding: 15px 0;
+
+    p {
+        display: none;
+        color: rgb(255, 255, 255);
+        font-family: Microsoft Sans Serif;
+        font-size: 31.76px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0%;
+    }
+
+    .media_burger {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        background: rgba(255, 255, 255, 0.3);
+        width: 81px;
+        height: 81px;
+    }
+
+    .media_kz {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        background: rgba(255, 255, 255, 0.3);
+        width: 81px;
+        height: 81px;
+    }
     
     .main_container {
         display: flex;
@@ -315,6 +345,10 @@ header {
     justify-content: center;
     .home_img {
         width: 100%;
+    }
+
+    .home_media_img {
+        display: none;
     }
     
     .home_wrapper {
@@ -533,6 +567,41 @@ header {
 }
 // information
 
+// androidapp
+.androidapp {
+    display: none;
+}
+// androidapp
+
+// mediapay
+.mediapay {
+    display: none;
+
+    fieldset {
+        padding: 38px 136px 98px 138px;
+        border: 3px solid rgb(196, 197, 197);
+        border-radius: 35px;
+    }
+
+    legend {
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 57px;
+        font-weight: 700;
+        line-height: 69px;
+        letter-spacing: 0%;
+    }
+
+    .mediapay_in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 65px;
+    }
+}
+// mediapay
+
 // partner
 .partner {
     margin-bottom: 143px;
@@ -602,3 +671,6 @@ footer {
     }
 }
 // footer
+
+
+@import './responsive';

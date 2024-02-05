@@ -178,8 +178,32 @@ address {
   display: flex;
 }
 
-header {
-  padding: 15px 0;
+header p {
+  display: none;
+  color: rgb(255, 255, 255);
+  font-family: Microsoft Sans Serif;
+  font-size: 31.76px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+header .media_burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 81px;
+  height: 81px;
+}
+header .media_kz {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 81px;
+  height: 81px;
 }
 header .main_container {
   display: flex;
@@ -257,6 +281,9 @@ header .burger {
 }
 .home .home_img {
   width: 100%;
+}
+.home .home_media_img {
+  display: none;
 }
 .home .home_wrapper {
   position: relative;
@@ -434,6 +461,34 @@ header .burger {
   letter-spacing: 0%;
 }
 
+.androidapp {
+  display: none;
+}
+
+.mediapay {
+  display: none;
+}
+.mediapay fieldset {
+  padding: 38px 136px 98px 138px;
+  border: 3px solid rgb(196, 197, 197);
+  border-radius: 35px;
+}
+.mediapay legend {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0%;
+}
+.mediapay .mediapay_in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+
 .partner {
   margin-bottom: 143px;
 }
@@ -491,4 +546,42 @@ footer p {
   font-weight: 700;
   line-height: 22.62px;
   letter-spacing: 0%;
+}
+
+@media only screen and (max-width: 1315px) {
+  header {
+    padding-top: 27px;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+  }
+  header nav {
+    display: none;
+  }
+  header .media_burger {
+    display: flex;
+    margin-right: 27px;
+  }
+  header p {
+    display: block;
+    margin-left: 25px;
+  }
+  header .media_kz {
+    margin-left: auto;
+    display: flex;
+  }
+  .home .home_img {
+    display: none;
+  }
+  .home .home_wrapper {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  .home .home_media_img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

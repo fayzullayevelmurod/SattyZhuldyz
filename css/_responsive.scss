@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1315px) {
+    header {
+        padding-top: 27px;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        nav {
+            display: none;
+        }
+
+        .media_burger {
+            display: flex;
+            margin-right: 27px;
+        }
+
+        p {
+            display: block;
+            margin-left: 25px;
+        }
+
+        .media_kz {
+            margin-left: auto;
+            display: flex;
+        }
+    }
+
+    .home {
+        .home_img {
+            display: none;
+        }
+
+        .home_wrapper {
+            max-width: 100%;
+            width: 100%;
+            padding: 0;
+        }
+
+        .home_media_img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+}
