@@ -881,6 +881,7 @@ footer p {
     padding: 20px 0;
   }
   .favorite button {
+    border: 0.89px solid rgb(210, 221, 239);
     padding: 8px 12px;
     border-radius: 7px;
     font-size: 10.97px;
