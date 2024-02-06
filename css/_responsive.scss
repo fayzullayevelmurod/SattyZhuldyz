@@ -190,8 +190,10 @@
 
 @media only screen and (max-width: 768px) {
     .main_title {
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 16.89px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0%;
     }
 
     .main_container {
@@ -203,130 +205,288 @@
     }
 
     header {
+        padding-top: 8px;
         p {
-            margin: 0 10px;
-            font-size: 18px;
-            line-height: 22px;
+            margin: 0 7px;
+            font-size: 9.41px;
+            font-weight: 400;
+            line-height: 11px;
+            letter-spacing: 0%;
+        }
+
+        .logo {
+            width: 45px;
         }
 
         .media_burger {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            margin-right: 8px;
+            width: 24px;
+            height: 24px;
+            border-radius: 7px;
 
             img {
-                width: 20px;
+                width: 12px;
             }
         }
 
         .media_kz {
             width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            width: 24px;
+            height: 24px;
+            border-radius: 7px;
 
             img {
-                width: 20px;
+                width: 12px;
             }
         }
     }
 
     .home {
+        background-image: url('../images/home_bg_media.png');
+        background-size: 100%;
+
         .home_btn {
-            height: 55px;
-            width: 320px;
-            font-size: 22px;
+            height: 28px;
+            width: 126px;
+            font-size: 10.97px;
+            border-radius: 7px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0%;
+        }
+
+        .home_wrapper {
+            padding: 40% 0 5% 0;
+        }
+    }
+
+    .home_under {
+        padding: 20px 0;
+    }
+
+    .favorite {
+        button {
+            padding: 8px 12px;
+            border-radius: 7px;
+            font-size: 10.97px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0%;
         }
     }
 
     .lotto_game {
         .main_title_link {
-            font-size: 25px;
+            font-size: 12.74px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+        }
+
+        .title_block {
+            margin: 10px 0;
+        }
+
+        .lotto_game_in_bottom {
+            margin-top: 9px;
+        }
+
+        p {
+            margin: 9px 0;
+            font-size: 6.52px;
+            font-weight: 400;
+            line-height: 9.19px;
+            letter-spacing: 0%;
         }
     }
 
     .jackpot {
         .jackpot_in {
             img {
-                height: 200px;
-                object-fit: cover;
+                width: 100%;
+            }
+            .main_btn {
+                border-radius: 4.45px;
+                font-size: 8.89px;
+                font-weight: 700;
+                line-height: 11px;
+                letter-spacing: 0%;
+                padding: 3px 7px;
             }
         }
     }
 
-    .favorite {
-        button {
-            padding: 12px 15px;
-            border-radius: 10px;
+    .lotteries {
+
+        .title_block {
+            margin: 10px 0;
         }
-    }
-
-    .partner {
-        margin-bottom: 20px;
-    }
-
-    .mediapay {
-        margin: 50px 0;
-        fieldset {
-            padding: 20px 30px;
-        }
-
-        .mediapay_in {
-            gap: 30px;
-        }
-
-        legend {
-            font-size: 22px;
-        } 
-    }
-
-    .winners {
-        h6 {
-            font-size: 18px;
-            margin-bottom: 1px;
-        }
-        h5 {
-            font-size: 22px;
+        .lotteries_bottom {
+            margin-top: 9px;
         }
 
         p {
-            font-size: 20px;
-            line-height: 29px;
+            margin: 9px 0;
+            font-size: 6.52px;
+            font-weight: 400;
+            line-height: 9.19px;
+            letter-spacing: 0%;
+        }
+    }
+
+    .winners {
+        margin-bottom: 30px;
+        .winners_in {
+            margin: 0;
         }
 
+        .winners_slider {
+            padding: 20px;
+        }
+
+        h6 {
+            font-size: 13.93px;
+            font-weight: 700;
+            line-height: 17px;
+            letter-spacing: 0%;
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            font-size: 15.41px;
+            font-weight: 700;
+            line-height: 19px;
+            letter-spacing: 0%;
+        }
+
+        p {
+            margin: 9px 0;
+            font-size: 9.78px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0%;
+        }   
+
         .winners_card {
+            box-shadow: 0px 1.78px 23.71px 0px rgb(202, 213, 228);
+            padding: 12px;
+            border-radius: 10.67px;
             img {
-                width: 90px;
+                width: 71px;
             }
 
             .winners_card_icon {
-                width: 40px;
+                width: 33px;
             }
         }
     }
 
     .information {
+        margin-bottom: 25px;
 
         .main_container {
             gap: 10px;
         }
 
         .information_card {
-            gap: 10px;
+            gap: 11px;
             a {
-                font-size: 22px;
+                img {
+                    width: 15px;
+                }
+                gap: 12px;
+                font-size: 13.93px;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0%;
             }
         }
     }
 
+    .mediapay {
+        margin: 25px 0;
+        
+        fieldset {
+            padding: 20px 40px;
+            border-radius: 10.37px;
+        }
+        
+        .mediapay_in {
+            gap: 20px;
+            
+            a {
+                width: calc(100% / 3 - 23px);
+                flex-shrink: 0;
+                // width: auto;
+                max-width: auto;
+            }
+        }
+        
+        legend {
+            font-size: 16.89px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0%;
+        } 
+    }
+
+    .partner {
+        margin-bottom: 20px;
+
+        .main_container {
+            gap: 35px;
+            .partner_text {
+                h6 {
+                    font-size: 14.82px;
+                    font-weight: 600;
+                    line-height: 18px;
+                    letter-spacing: 0%;
+                }
+                
+                p {
+                    font-size: 12.74px;
+                    font-weight: 400;
+                    line-height: 14.23px;
+                    letter-spacing: 0%;
+                    margin-bottom: 6px;
+                }
+            }
+
+            .partner_logo_slider {
+
+                a {
+                    display: flex;
+                    align-items: center;
+
+                }
+            }
+        }
+    }
+
+
     footer {
+        margin-top: 24px;
         margin-bottom: 30px;
         .footer_left {
-            flex-direction: column;
+            width: 75%;
             gap: 10px;
 
-            p {
-                text-align: left;
+            .footer_logo {
+                width: 35px;
             }
+
+            p {
+                max-width: 168px;
+                font-size: 8.89px;
+                font-weight: 700;
+                line-height: 11.26px;
+                letter-spacing: 0%;
+            }
+            
+        }
+
+        .footer_img {
+            width: 36px;
         }
     }
 }

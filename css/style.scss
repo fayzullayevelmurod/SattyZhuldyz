@@ -249,13 +249,13 @@ address {
             height: 40px;
 
             span {
-                width: 40px;
+                width: 25px;
                 height: 3px;
                 background-color: #fff;
             }
 
             .left {
-                transform: rotate(45deg) translate(-8px, 10px);
+                transform: rotate(45deg) translate(-8px, 11px);
             }
             .right {
                 transform: rotate(-45deg) translateY(-20px);
@@ -264,12 +264,12 @@ address {
 
         .nav_item {
             a {
-                padding: 35px 18px;
+                padding: 25px 18px;
                 color: #fff;
                 font-family: Microsoft Sans Serif;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 27px;
+                font-size: 16.89px;
+                font-weight: 700;
+                line-height: 20px;
                 letter-spacing: 0%;
                 @include transition();
                 border-bottom: 4px solid transparent;
@@ -282,11 +282,11 @@ address {
     
             .nav_item_new {
                 position: relative;
-                margin-right: 40px;
+                // margin-right: 40px;
     
                 span {
                     position: absolute;
-                    top: 25px;
+                    top: 10px;
                     right: -30px;
                     color: rgb(0, 0, 0);
                     font-family: $Inter;
@@ -303,21 +303,22 @@ address {
     
         .sign {
             margin-bottom: 20px;
-            padding: 24px 54px;
+            padding: 10px 24px;
             color: rgb(0, 0, 0);
             font-family: Microsoft Sans Serif;
-            font-size: 24px;
-            font-weight: 400;
-            line-height: 27px;
+            font-size: 16.89px;
+            font-weight: 700;
+            line-height: 20px;
             letter-spacing: 0%;
             border-radius: 37.5px;
             background: rgb(255, 205, 0);
         }
     
         .lang {
+            @include flex-full-center();
             flex-shrink: 0;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             border-radius: 40.5px;
             background: rgb(255, 255, 255);
             box-shadow: 0px 0px 12px 0px rgba(0, 93, 172, 0.2);

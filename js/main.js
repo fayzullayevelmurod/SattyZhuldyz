@@ -30,8 +30,8 @@ close_btn.addEventListener('click', () => {
 var home_under = new Swiper(".home_under_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1.25,
-          spaceBetween: 20,
+          slidesPerView: 1.60,
+          spaceBetween: 9,
         },
         768: {
           slidesPerView: 1.5,
@@ -47,7 +47,7 @@ var home_under = new Swiper(".home_under_slider", {
 var favorite_slider = new Swiper(".favorite_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1.2,
+          slidesPerView: 2.5,
           spaceBetween: 16,
         },
         768: {
@@ -69,8 +69,8 @@ var favorite_slider = new Swiper(".favorite_slider", {
 var lotto_game_slider = new Swiper(".lotto_game_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1.25,
-          spaceBetween: 24,
+          slidesPerView: 2.50,
+          spaceBetween: 8,
         },
         768: {
           slidesPerView: 2.5,
@@ -86,8 +86,8 @@ var lotto_game_slider = new Swiper(".lotto_game_slider", {
 var lotteries_slider = new Swiper(".lotteries_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1.25,
-          spaceBetween: 24,
+          slidesPerView: 2.50,
+          spaceBetween: 8,
         },
         768: {
           slidesPerView: 2.5,
@@ -103,8 +103,8 @@ var lotteries_slider = new Swiper(".lotteries_slider", {
 var winners_slider = new Swiper(".winners_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1,
-          spaceBetween: 20,
+          slidesPerView: 1.25,
+          spaceBetween: 9,
         },
         768: {
           slidesPerView: 1.20,
@@ -124,7 +124,7 @@ var winners_slider = new Swiper(".winners_slider", {
 var partner_logo_slider = new Swiper(".partner_logo_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 2,
+          slidesPerView: 3,
           spaceBetween: 27,
         },
         576: {

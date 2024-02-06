@@ -206,23 +206,23 @@ address {
   height: 40px;
 }
 .media_menu .media_menu_wrapper .close_btn span {
-  width: 40px;
+  width: 25px;
   height: 3px;
   background-color: #fff;
 }
 .media_menu .media_menu_wrapper .close_btn .left {
-  transform: rotate(45deg) translate(-8px, 10px);
+  transform: rotate(45deg) translate(-8px, 11px);
 }
 .media_menu .media_menu_wrapper .close_btn .right {
   transform: rotate(-45deg) translateY(-20px);
 }
 .media_menu .media_menu_wrapper .nav_item a {
-  padding: 35px 18px;
+  padding: 25px 18px;
   color: #fff;
   font-family: Microsoft Sans Serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 27px;
+  font-size: 16.89px;
+  font-weight: 700;
+  line-height: 20px;
   letter-spacing: 0%;
   transition: 0.2s ease;
   border-bottom: 4px solid transparent;
@@ -233,11 +233,10 @@ address {
 }
 .media_menu .media_menu_wrapper .nav_item .nav_item_new {
   position: relative;
-  margin-right: 40px;
 }
 .media_menu .media_menu_wrapper .nav_item .nav_item_new span {
   position: absolute;
-  top: 25px;
+  top: 10px;
   right: -30px;
   color: rgb(0, 0, 0);
   font-family: "Inter", sans-serif;
@@ -251,20 +250,23 @@ address {
 }
 .media_menu .media_menu_wrapper .sign {
   margin-bottom: 20px;
-  padding: 24px 54px;
+  padding: 10px 24px;
   color: rgb(0, 0, 0);
   font-family: Microsoft Sans Serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 27px;
+  font-size: 16.89px;
+  font-weight: 700;
+  line-height: 20px;
   letter-spacing: 0%;
   border-radius: 37.5px;
   background: rgb(255, 205, 0);
 }
 .media_menu .media_menu_wrapper .lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 40.5px;
   background: rgb(255, 255, 255);
   box-shadow: 0px 0px 12px 0px rgba(0, 93, 172, 0.2);
@@ -817,8 +819,10 @@ footer p {
 }
 @media only screen and (max-width: 768px) {
   .main_title {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 16.89px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
   }
   .main_container {
     padding: 0 10px;
@@ -826,93 +830,229 @@ footer p {
   .main_btn {
     font-size: 22px;
   }
+  header {
+    padding-top: 8px;
+  }
   header p {
-    margin: 0 10px;
-    font-size: 18px;
-    line-height: 22px;
+    margin: 0 7px;
+    font-size: 9.41px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0%;
+  }
+  header .logo {
+    width: 45px;
   }
   header .media_burger {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 7px;
   }
   header .media_burger img {
-    width: 20px;
+    width: 12px;
   }
   header .media_kz {
     width: 40px;
-    height: 40px;
-    border-radius: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 7px;
   }
   header .media_kz img {
-    width: 20px;
+    width: 12px;
+  }
+  .home {
+    background-image: url("../images/home_bg_media.png");
+    background-size: 100%;
   }
   .home .home_btn {
-    height: 55px;
-    width: 320px;
-    font-size: 22px;
+    height: 28px;
+    width: 126px;
+    font-size: 10.97px;
+    border-radius: 7px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
   }
-  .lotto_game .main_title_link {
-    font-size: 25px;
+  .home .home_wrapper {
+    padding: 40% 0 5% 0;
   }
-  .jackpot .jackpot_in img {
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .home_under {
+    padding: 20px 0;
   }
   .favorite button {
-    padding: 12px 15px;
-    border-radius: 10px;
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 10.97px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
   }
-  .partner {
-    margin-bottom: 20px;
+  .lotto_game .main_title_link {
+    font-size: 12.74px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
   }
-  .mediapay {
-    margin: 50px 0;
+  .lotto_game .title_block {
+    margin: 10px 0;
   }
-  .mediapay fieldset {
-    padding: 20px 30px;
+  .lotto_game .lotto_game_in_bottom {
+    margin-top: 9px;
   }
-  .mediapay .mediapay_in {
-    gap: 30px;
+  .lotto_game p {
+    margin: 9px 0;
+    font-size: 6.52px;
+    font-weight: 400;
+    line-height: 9.19px;
+    letter-spacing: 0%;
   }
-  .mediapay legend {
-    font-size: 22px;
+  .jackpot .jackpot_in img {
+    width: 100%;
+  }
+  .jackpot .jackpot_in .main_btn {
+    border-radius: 4.45px;
+    font-size: 8.89px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0%;
+    padding: 3px 7px;
+  }
+  .lotteries .title_block {
+    margin: 10px 0;
+  }
+  .lotteries .lotteries_bottom {
+    margin-top: 9px;
+  }
+  .lotteries p {
+    margin: 9px 0;
+    font-size: 6.52px;
+    font-weight: 400;
+    line-height: 9.19px;
+    letter-spacing: 0%;
+  }
+  .winners {
+    margin-bottom: 30px;
+  }
+  .winners .winners_in {
+    margin: 0;
+  }
+  .winners .winners_slider {
+    padding: 20px;
   }
   .winners h6 {
-    font-size: 18px;
-    margin-bottom: 1px;
+    font-size: 13.93px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
   }
   .winners h5 {
-    font-size: 22px;
+    font-size: 15.41px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
   }
   .winners p {
-    font-size: 20px;
-    line-height: 29px;
+    margin: 9px 0;
+    font-size: 9.78px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+  }
+  .winners .winners_card {
+    box-shadow: 0px 1.78px 23.71px 0px rgb(202, 213, 228);
+    padding: 12px;
+    border-radius: 10.67px;
   }
   .winners .winners_card img {
-    width: 90px;
+    width: 71px;
   }
   .winners .winners_card .winners_card_icon {
-    width: 40px;
+    width: 33px;
+  }
+  .information {
+    margin-bottom: 25px;
   }
   .information .main_container {
     gap: 10px;
   }
   .information .information_card {
-    gap: 10px;
+    gap: 11px;
   }
   .information .information_card a {
-    font-size: 22px;
+    gap: 12px;
+    font-size: 13.93px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+  }
+  .information .information_card a img {
+    width: 15px;
+  }
+  .mediapay {
+    margin: 25px 0;
+  }
+  .mediapay fieldset {
+    padding: 20px 40px;
+    border-radius: 10.37px;
+  }
+  .mediapay .mediapay_in {
+    gap: 20px;
+  }
+  .mediapay .mediapay_in a {
+    width: calc(33.3333333333% - 23px);
+    flex-shrink: 0;
+    max-width: auto;
+  }
+  .mediapay legend {
+    font-size: 16.89px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+  .partner {
+    margin-bottom: 20px;
+  }
+  .partner .main_container {
+    gap: 35px;
+  }
+  .partner .main_container .partner_text h6 {
+    font-size: 14.82px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+  .partner .main_container .partner_text p {
+    font-size: 12.74px;
+    font-weight: 400;
+    line-height: 14.23px;
+    letter-spacing: 0%;
+    margin-bottom: 6px;
+  }
+  .partner .main_container .partner_logo_slider a {
+    display: flex;
+    align-items: center;
   }
   footer {
+    margin-top: 24px;
     margin-bottom: 30px;
   }
   footer .footer_left {
-    flex-direction: column;
+    width: 75%;
     gap: 10px;
   }
+  footer .footer_left .footer_logo {
+    width: 35px;
+  }
   footer .footer_left p {
-    text-align: left;
+    max-width: 168px;
+    font-size: 8.89px;
+    font-weight: 700;
+    line-height: 11.26px;
+    letter-spacing: 0%;
+  }
+  footer .footer_img {
+    width: 36px;
   }
 }/*# sourceMappingURL=style.css.map */
