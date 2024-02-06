@@ -47,7 +47,7 @@ var home_under = new Swiper(".home_under_slider", {
 var favorite_slider = new Swiper(".favorite_slider", {
     breakpoints: {
         320: {
-          slidesPerView: 1.50,
+          slidesPerView: 1.2,
           spaceBetween: 16,
         },
         768: {
