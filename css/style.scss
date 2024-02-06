@@ -222,6 +222,111 @@ address {
     display: flex;
 }
 
+.media_menu {
+    position: fixed;
+    left: -100%;
+    @include transition();
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);    
+    .media_menu_wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .nav_link {
+            text-align: center;
+        }
+
+        .close_btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 40px;
+            height: 40px;
+
+            span {
+                width: 40px;
+                height: 3px;
+                background-color: #fff;
+            }
+
+            .left {
+                transform: rotate(45deg) translate(-8px, 10px);
+            }
+            .right {
+                transform: rotate(-45deg) translateY(-20px);
+            }
+        }
+
+        .nav_item {
+            a {
+                padding: 35px 18px;
+                color: #fff;
+                font-family: Microsoft Sans Serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 27px;
+                letter-spacing: 0%;
+                @include transition();
+                border-bottom: 4px solid transparent;
+    
+                &:hover {
+                    color: rgb(0, 93, 172);
+                    border-bottom: 4px solid rgb(0, 93, 172);
+                }
+            }
+    
+            .nav_item_new {
+                position: relative;
+                margin-right: 40px;
+    
+                span {
+                    position: absolute;
+                    top: 25px;
+                    right: -30px;
+                    color: rgb(0, 0, 0);
+                    font-family: $Inter;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 17px;
+                    letter-spacing: 0%;
+                    border-radius: 12px;
+                    padding: 3px 7px;
+                    background: rgb(255, 205, 0);
+                }
+            }
+        }
+    
+        .sign {
+            margin-bottom: 20px;
+            padding: 24px 54px;
+            color: rgb(0, 0, 0);
+            font-family: Microsoft Sans Serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0%;
+            border-radius: 37.5px;
+            background: rgb(255, 205, 0);
+        }
+    
+        .lang {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 40.5px;
+            background: rgb(255, 255, 255);
+            box-shadow: 0px 0px 12px 0px rgba(0, 93, 172, 0.2);
+        }
+    }
+}
+
+.media_menu.active {
+    left: 0;
+}
+
 // header
 header {
     // padding: 15px 0;
@@ -380,10 +485,22 @@ header {
 // home_under
 .home_under {
     padding: 72px 0;
+
     .main_container {
         @include flex-full-center();
         gap: 43px;
     }
+
+    .home_under_slider {
+
+        .home_under_card {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
 }
 // home_under
 
@@ -396,6 +513,8 @@ header {
     }
 
     button {
+        width: 100%;
+        white-space: nowrap;
         padding: 22px 24px;
         color: rgb(0, 0, 0);
         font-family: Microsoft Sans Serif;
@@ -420,12 +539,26 @@ header {
 
     .title_block {
         margin: 36px 0 30px 0;
+
     }
 
     .lotto_game_in {
         display: flex;
         align-items: center;
         gap: 24px;
+    }
+
+    .lotto_game_card {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .lotto_game_in_bottom {
+        margin-top: 32px;
+        display: none;
     }
 
     p {
@@ -467,6 +600,18 @@ header {
         gap: 24px;
     }
 
+    .lotteries_card {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .lotteries_bottom {
+        margin-top: 32px;
+        display: none;
+    }
     
     p {
         margin: 40px 0;
@@ -485,7 +630,7 @@ header {
     margin-bottom: 66px;
 
     .winners_card {
-        width: calc(100% / 3);
+        width: 100%;
         position: relative;
         padding: 19px;
         @include flex-center();
@@ -505,6 +650,10 @@ header {
         margin: 37px 0 48px 0;
         display: flex;
         gap: 46px;
+    }
+
+    .winners_slider {
+        padding: 40px;
     }
 
     h6 {
@@ -575,10 +724,11 @@ header {
 
 // mediapay
 .mediapay {
+    margin-bottom: 90px;
     display: none;
 
     fieldset {
-        padding: 38px 136px 98px 138px;
+        padding: 79px 136px 79px 136px;
         border: 3px solid rgb(196, 197, 197);
         border-radius: 35px;
     }
@@ -609,6 +759,10 @@ header {
         display: flex;
         align-items: center;
         gap: 71px;
+    }
+
+    .partner_logo_slider {
+        display: none;
     }
 
     h6 {
