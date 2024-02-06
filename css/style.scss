@@ -230,8 +230,10 @@ address {
     height: 100%;
     z-index: 5;
     background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);    
+    backdrop-filter: blur(10px);   
+
     .media_menu_wrapper {
+        padding-top: 50px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -242,7 +244,7 @@ address {
         .close_btn {
             position: absolute;
             right: 10px;
-            top: 10px;
+            top: 30px;
             width: 40px;
             height: 40px;
 

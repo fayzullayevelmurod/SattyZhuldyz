@@ -190,6 +190,7 @@ address {
           backdrop-filter: blur(10px);
 }
 .media_menu .media_menu_wrapper {
+  padding-top: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -200,7 +201,7 @@ address {
 .media_menu .media_menu_wrapper .close_btn {
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 30px;
   width: 40px;
   height: 40px;
 }
@@ -689,6 +690,7 @@ footer p {
     display: none;
   }
   header .media_burger {
+    flex-shrink: 0;
     display: flex;
     margin-right: 27px;
   }
@@ -697,6 +699,7 @@ footer p {
     margin-left: 25px;
   }
   header .media_kz {
+    flex-shrink: 0;
     margin-left: auto;
     display: flex;
   }
@@ -737,7 +740,7 @@ footer p {
     display: block;
   }
   .jackpot .jackpot_in button {
-    left: 100px;
+    left: 5%;
     bottom: 25px;
     padding: 14px 33px;
   }
@@ -804,13 +807,102 @@ footer p {
   footer .footer_left {
     width: 70%;
   }
+  footer .footer_left .footer_logo {
+    flex-shrink: 0;
+  }
   footer .footer_left p {
     text-align: center;
     margin-left: auto;
   }
 }
 @media only screen and (max-width: 768px) {
+  .main_title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main_container {
+    padding: 0 10px;
+  }
+  .main_btn {
+    font-size: 22px;
+  }
+  header p {
+    margin: 0 10px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  header .media_burger {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+  }
+  header .media_burger img {
+    width: 22px;
+  }
+  header .media_kz {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+  }
+  header .media_kz img {
+    width: 22px;
+  }
+  .home .home_btn {
+    height: 55px;
+    width: 320px;
+    font-size: 22px;
+  }
+  .lotto_game .main_title_link {
+    font-size: 25px;
+  }
+  .jackpot .jackpot_in img {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .partner {
+    margin-bottom: 20px;
+  }
+  .mediapay {
+    margin: 50px 0;
+  }
   .mediapay fieldset {
-    padding: 40px 50px 40px 50px;
+    padding: 20px 30px;
+  }
+  .mediapay .mediapay_in {
+    gap: 30px;
+  }
+  .mediapay legend {
+    font-size: 22px;
+  }
+  .winners h6 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .winners h5 {
+    font-size: 25px;
+  }
+  .winners p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .information .main_container {
+    gap: 10px;
+  }
+  .information .information_card {
+    gap: 10px;
+  }
+  .information .information_card a {
+    font-size: 22px;
+  }
+  footer {
+    margin-bottom: 30px;
+  }
+  footer .footer_left {
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .footer_left p {
+    text-align: left;
   }
 }/*# sourceMappingURL=style.css.map */
