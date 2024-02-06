@@ -75,6 +75,17 @@
         }
     }
 
+    .jackpot {
+        .jackpot_in {
+            
+            button {
+                left: 100px;
+                bottom: 25px;
+                padding: 14px 33px;
+            }
+        }
+    }
+
     .information {
         .main_container {
             flex-direction: column;
