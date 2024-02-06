@@ -817,8 +817,8 @@ footer p {
 }
 @media only screen and (max-width: 768px) {
   .main_title {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 38px;
   }
   .main_container {
     padding: 0 10px;
@@ -832,20 +832,20 @@ footer p {
     line-height: 22px;
   }
   header .media_burger {
-    width: 50px;
-    height: 50px;
-    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
   }
   header .media_burger img {
-    width: 22px;
+    width: 20px;
   }
   header .media_kz {
-    width: 50px;
-    height: 50px;
-    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
   }
   header .media_kz img {
-    width: 22px;
+    width: 20px;
   }
   .home .home_btn {
     height: 55px;
@@ -859,6 +859,10 @@ footer p {
     height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .favorite button {
+    padding: 12px 15px;
+    border-radius: 10px;
   }
   .partner {
     margin-bottom: 20px;
@@ -876,15 +880,21 @@ footer p {
     font-size: 22px;
   }
   .winners h6 {
-    font-size: 20px;
-    margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 1px;
   }
   .winners h5 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .winners p {
     font-size: 20px;
     line-height: 29px;
+  }
+  .winners .winners_card img {
+    width: 90px;
+  }
+  .winners .winners_card .winners_card_icon {
+    width: 40px;
   }
   .information .main_container {
     gap: 10px;
