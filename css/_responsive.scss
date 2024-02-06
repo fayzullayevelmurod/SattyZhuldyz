@@ -303,6 +303,15 @@
 
     .jackpot {
         .jackpot_in {
+
+            .jackpot_desktop {
+                display: none;
+            }
+
+            .jackpot_media {
+                display: block;
+            }
+
             img {
                 width: 100%;
             }

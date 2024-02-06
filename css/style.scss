@@ -581,6 +581,10 @@ header {
     .jackpot_in {
         position: relative;
 
+        .jackpot_media {
+            display: none;
+        }
+
         button {
             position: absolute;
             bottom: 50px;
